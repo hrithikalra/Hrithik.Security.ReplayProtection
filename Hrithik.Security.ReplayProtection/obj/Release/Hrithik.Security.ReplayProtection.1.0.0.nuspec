@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Hrithik.Security.ReplayProtection</id>
+    <version>1.0.0</version>
+    <authors>Hrithik Kalra</authors>
+    <license type="expression">MIT</license>
+    <licenseUrl>https://licenses.nuget.org/MIT</licenseUrl>
+    <readme>README.md</readme>
+    <description>Enterprise-grade Replay Attack Protection for .NET APIs.
+		Designed for Banking, Fintech and secure distributed systems.</description>
+    <tags>security replay-attack banking fintech dotnet api-security</tags>
+    <repository type="git" commit="5d0fbd185b69422a73781e0e494c4cd34374a839" />
+    <dependencies>
+      <group targetFramework="net8.0">
+        <dependency id="Microsoft.AspNetCore.Http.Abstractions" version="2.3.9" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Caching.Abstractions" version="10.0.2" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Options" version="10.0.2" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <frameworkReferences>
+      <group targetFramework="net8.0">
+        <frameworkReference name="Microsoft.AspNetCore.App" />
+      </group>
+    </frameworkReferences>
+  </metadata>
+  <files>
+    <file src="C:\Users\user\Desktop\HRITHIK\Personal\NugetPackageCode\LibMainProj\Hrithik.Security.ReplayProtection\bin\Release\net8.0\Hrithik.Security.ReplayProtection.dll" target="lib\net8.0\Hrithik.Security.ReplayProtection.dll" />
+    <file src="C:\Users\user\Desktop\HRITHIK\Personal\NugetPackageCode\LibMainProj\Hrithik.Security.ReplayProtection\README.md" target="\README.md" />
+  </files>
+</package>
