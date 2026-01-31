@@ -7,13 +7,13 @@ Specially designed for **Banking, Fintech, and secure distributed systems**.
 
 ## ❓ What is a Replay Attack?
 
-Jab koi attacker ek valid API request ko copy karke  
-use **dubara server par bhej deta hai**, usse Replay Attack kehte hain.
+When an attacker copies a valid API request and sends it to the server again, it is called a Replay Attack.
 
-Ye especially dangerous hota hai:
-- Banking APIs
-- Payment systems
-- Secure transactions
+This is especially dangerous for:
+
+Banking APIs
+Payment systems
+Secure transactions
 
 ---
 
